@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+<script src = "Controle.js"></script>
+</head>
+
+<body>
+
+<form method="POST" action="inscri.php" name ="f">
+	<p align="center">Inscreption des electeurs</p>
+	<p align="center">&nbsp;</p>
+	<table border="0" width="100%">
+		<tr>
+			<td width="448">Num</td>
+			<td><input type="text" name="T1" size="20"></td>
+		</tr>
+		<tr>
+			<td width="448">Nom</td>
+			<td><input type="text" name="T2" size="20"></td>
+		</tr>
+		<tr>
+			<td width="448">Prenom</td>
+			<td><input type="text" name="T3" size="20"></td>
+		</tr>
+		<tr>
+			<td width="448">Genre</td>
+			<td><input type="radio" value="F" checked name="R1">File
+			<input type="radio" name="R1" value="G">Garcon</td>
+		</tr>
+		<tr>
+			<td width="448">Niveau</td>
+			<td><select size="1" name="D1">
+			<option value="7">7eme</option>
+			<option value="8">8eme</option>
+			<option value="9">9eme</option>
+			</select></td>
+		</tr>
+	</table>
+	<p>&nbsp;</p>
+	<p><input type="submit" value="Submit" name="B1" onclick =  "return verif()"><input type="reset" value="Reset" name="B2"></p>
+</form>
+
+</body>
+
+</html>
